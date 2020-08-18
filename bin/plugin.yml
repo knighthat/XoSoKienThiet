@@ -1,0 +1,11 @@
+name: "XoSoKienThiet"
+description: "Quay số trúng thưởng"
+main: me.knighthat.XoSoKienThiet.XoSoKienThiet
+version: 1.0
+author: [KnightHat]
+commands:
+  xoso:
+    usage: /xoso
+    permissions:
+      - xoso.admin
+      - xoso.thamgia

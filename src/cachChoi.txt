@@ -1,0 +1,4 @@
+&a[Đây là cách chơi xổ số kiến thiết]
+&71.&f Chuột phải vào bảng [Xổ số].
+&72.&f Nhập 3 cặp số (vd: 00 00 00).
+&f3.&f Chờ kết quả.

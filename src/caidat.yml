@@ -1,0 +1,41 @@
+TienTo: "&f[&aXổ &9số&f]&r "
+TaiLai: "&aPlugin đã được tải lại!"
+KhongQuyen: "&cBạn không có quyền thi hành lệnh này!"
+DatLai: "&bĐã đặt lại toàn bộ!"
+DaThamGia: "&4Bạn đã tham gia xổ số rồi! Hãy đợi có kết quả rồi chơi ván mới"
+
+Bang:
+  1: "&f[&6Xổ Số&f]"
+  2: ""
+  3: "Giải nhất: #1.M"
+  4: "&aChuột phải để tham gia"
+  
+DatBang: "&2Tạo bảng xổ số thành công"
+ThamGia: "&3Bạn đã tham gia vào chương trình Xổ Số. Hãy nhập {CAP} cặp số may mắn của bạn"
+
+CaiDat:
+  CapSo: 3 #Số lượng cặp số yêu cầu để tham gia xổ số. Càn ít nhất 3 cặp
+  ThoiGianCho: 10 #Thời gian chờ nhập vào trước khi hết hạn - tính bằng giây
+  KhongDu: "&cBạn nhập không đủ cặp số yêu cầu!"
+  
+HenGioXoSo: 600 #Khoảng thời gian giữa các lần sổ số - tính bằng giây
+
+GiaiThuong: 
+  BatThongBao: true
+  #{TEN} là tên đăng nhập, {BIETDANH} là tên đã được đổi thành, {GIAITHUONG} là giải mà người chơi đạt được
+  ThongBao: "{BIETDANH} &9đã trúng giải {GIAITHUONG} từ Xổ Số Kiến Thiết."
+  #Miễn là lệnh có tồn tại trong server thì sẽ không xảy ra lỗi
+  #Một số tính năng khác sẽ được thêm vào ở các phiên bản sau.
+  GiaiNhat:
+    - "eco give {NGUOICHOI} 1000000"
+    - "TINNHAN:&6&lBạn đã trúng giải độc đắc trong lần xổ số này!"
+  GiaiNhi:
+    - "eco give {NGUOICHOI} 100000"
+    - "TINNHAN:&a&lBạn đã trúng giải nhì trong lần xổ số này!"
+  GiaiBa:
+    - "eco give {NGUOICHOI} 1000"
+    - "TINNHAN:&e&lBạn đã trúng giải ba trong lần xổ số này!"
+    
+GiaiNhat: "giải độc đắc"
+GiaiNhi: "giải nhì"
+GiaiBa: "giải ba"
